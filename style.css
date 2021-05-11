@@ -1,0 +1,42 @@
+/* 2.	Стилизация: кнопка должна быть зеленая, вокруг инпута должна быть красная граница, размер кнопки и инпута - больше стандартного. Добавить паддинги в инпут. */
+
+body {
+    height: 100vh;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input {
+    box-sizing: border-box;
+    width: calc(100% / 2);
+    max-width: 800px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding: 15px 25px;
+    border: 2px solid red;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+button {
+    width: calc(100% / 5);
+    max-width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color:rgb(16, 200, 87);
+    color: snow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+button:hover {
+    background: rgba(16, 200, 87, 0.7);
+}
